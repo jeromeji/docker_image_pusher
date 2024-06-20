@@ -3,3 +3,4 @@ nginx
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 nacos/nacos-server:v2.0.4
+centos:7.5.1804
