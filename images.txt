@@ -2,8 +2,4 @@ nginx
 #支持私库
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-getsentry/relay:24.5.1
-getsentry/symbolicator:24.5.1
-getsentry/vroom:24.5.1
-subfuzion/netcat:last
-prom/statsd-exporter:v0.17.0
+subfuzion/netcat:latest
