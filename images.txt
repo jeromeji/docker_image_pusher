@@ -3,4 +3,4 @@ nginx
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 prom/statsd-exporter:v0.17.0
-kea-dhcp/kea:latest
+docker.cloudsmith.io/isc/docker/kea-dhcp6
