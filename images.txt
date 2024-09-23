@@ -3,4 +3,4 @@ nginx
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 prom/statsd-exporter:v0.17.0
-kea-dhcp/kea:2.7.3
+kea-dhcp/kea:latest
