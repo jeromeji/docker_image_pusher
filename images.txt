@@ -5,3 +5,4 @@ nginx
 prom/statsd-exporter:v0.17.0
 docker.cloudsmith.io/isc/docker/kea-dhcp6
 rkojedzinszky/kea
+prom/alertmanager
