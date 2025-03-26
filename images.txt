@@ -2,7 +2,4 @@ nginx
 #支持私库
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-prom/statsd-exporter:v0.17.0
-docker.cloudsmith.io/isc/docker/kea-dhcp6
-rkojedzinszky/kea
-prom/alertmanager
+victoriametrics/vmagent:v1.77.0
