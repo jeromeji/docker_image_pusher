@@ -8,4 +8,4 @@ nginx
 #--platform=linux/amd64 victoriametrics/vmselect:v1.120.0-cluster
 #--platform=linux/amd64 victoriametrics/vmagent:v1.120.0
 #--platform=linux/amd64 python:3.10
---platform=linux/amd64 ubuntu/python:3.10-22.04_stable
+--platform=linux/amd64  ubuntu/python:3.10-22.04_stable
