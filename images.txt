@@ -1,12 +1,10 @@
 nginx
 #支持私库
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
-victoriametrics/vmagent:v1.77.0
---platform=linux/arm64 prom/prometheus
---platform=linux/arm64 kubesphere/kube-state-metrics:v2.15.0
---platform=linux/amd64 victoriametrics/vmstorage:v1.120.0-cluster
---platform=linux/amd64 victoriametrics/vminsert:v1.120.0-cluster
---platform=linux/amd64 victoriametrics/vmselect:v1.120.0-cluster
---platform=linux/amd64 victoriametrics/vmagent:v1.120.0
---platform=linux/amd64 docker pull python:3.10
+#--platform=linux/arm64 prom/prometheus
+#--platform=linux/arm64 kubesphere/kube-state-metrics:v2.15.0
+#--platform=linux/amd64 victoriametrics/vmstorage:v1.120.0-cluster
+#--platform=linux/amd64 victoriametrics/vminsert:v1.120.0-cluster
+#--platform=linux/amd64 victoriametrics/vmselect:v1.120.0-cluster
+#--platform=linux/amd64 victoriametrics/vmagent:v1.120.0
+--platform=linux/amd64 python:3.10
