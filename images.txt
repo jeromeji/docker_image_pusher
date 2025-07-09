@@ -9,3 +9,4 @@ victoriametrics/vmagent:v1.77.0
 --platform=linux/amd64 victoriametrics/vminsert:v1.120.0-cluster
 --platform=linux/amd64 victoriametrics/vmselect:v1.120.0-cluster
 --platform=linux/amd64 victoriametrics/vmagent:v1.120.0
+--platform=linux/amd64 docker pull python:3.10
