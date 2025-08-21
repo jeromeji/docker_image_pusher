@@ -13,6 +13,8 @@
 #--platform=linux/amd64 logstash:8.18.3
 #--platform=linux/amd64 golang:1.12.6
 #--platform=linux/amd64 alpine:3.7
---platform=linux/amd64 python:3.9-slim
---platform=linux/amd64 node:16-alpine
---platform=linux/amd64 nginx:alpine
+#--platform=linux/amd64 python:3.9-slim
+#--platform=linux/amd64 node:16-alpine
+#--platform=linux/amd64 nginx:alpine
+--platform=linux/amd64 postgres:14-alpine
+--platform=linux/amd64 redis:7-alpine
