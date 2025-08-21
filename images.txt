@@ -1,4 +1,4 @@
-nginx
+#nginx
 #支持私库
 #支持指定架构
 #--platform=linux/arm64 prom/prometheus
@@ -11,5 +11,8 @@ nginx
 #--platform=linux/amd64  ubuntu/python:3.10-22.04_stable
 #--platform=linux/amd64  projectsveltos/k8s-cleaner:main
 #--platform=linux/amd64 logstash:8.18.3
---platform=linux/amd64 golang:1.12.6
---platform=linux/amd64 alpine:3.7
+#--platform=linux/amd64 golang:1.12.6
+#--platform=linux/amd64 alpine:3.7
+--platform=linux/amd64 python:3.9-slim
+--platform=linux/amd64 node:16-alpine
+--platform=linux/amd64 nginx:alpine
