@@ -18,4 +18,5 @@
 #--platform=linux/amd64 nginx:alpine
 #--platform=linux/amd64 postgres:14-alpine
 #--platform=linux/amd64 redis:7-alpine
---platform=linux/amd64 hanchuanchuan/goinception:v1.3.0
+#--platform=linux/amd64 hanchuanchuan/goinception:v1.3.0
+--platform=linux/amd64 1766856800xx/go-inception:latest
