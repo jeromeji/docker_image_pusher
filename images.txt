@@ -29,6 +29,8 @@
 #--platform=linux/amd64 langgenius/dify-plugin-daemon:0.1.3-local
 #--platform=linux/amd64 ubuntu/squid:latest	
 #--platform=linux/amd64 nginx:latest	
---platform=linux/amd64 postgres:15-alpine
---platform=linux/amd64 redis:6-alpine
---platform=linux/amd64 semitechnologies/weaviate:1.19.0
+#--platform=linux/amd64 postgres:15-alpine
+#--platform=linux/amd64 redis:6-alpine
+#--platform=linux/amd64 semitechnologies/weaviate:1.19.0
+--platform=linux/amd64 bitnami/kubectl:latest
+--platform=linux/amd64 alpine:latest
