@@ -41,13 +41,14 @@
 #--platform=linux/amd64 weibh/k8m:v0.0.181
 #--platform=linux/amd64 polinux/stress
 #--platform=linux/amd64 hhyo/archery:v1.13.0
-mysql
-clickhouse/clickhouse-server
-grafana/grafana
-byconity/byconity:1.0.0
-foundationdb/foundationdb:7.1.15
-foundationdb/foundationdb-kubernetes-sidecar:7.1.15-1
-foundationdb/fdb-kubernetes-operator:v1.9.0
+#mysql
+#clickhouse/clickhouse-server
+#grafana/grafana
+#byconity/byconity:1.0.0
+##foundationdb/foundationdb:7.1.15
+#foundationdb/foundationdb-kubernetes-sidecar:7.1.15-1
+#foundationdb/fdb-kubernetes-operator:v1.9.0
+prom/blackbox-exporter:v0.19.0
 
 
 
