@@ -1,24 +1,6 @@
 #nginx
 #支持私库
 #支持指定架构
-#--platform=linux/arm64 prom/prometheus
-#--platform=linux/arm64 kubesphere/kube-state-metrics:v2.15.0
-#--platform=linux/amd64 victoriametrics/vmstorage:v1.120.0-cluster
-#--platform=linux/amd64 victoriametrics/vminsert:v1.120.0-cluster
-#--platform=linux/amd64 victoriametrics/vmselect:v1.120.0-cluster
-#--platform=linux/amd64 victoriametrics/vmagent:v1.120.0
-#--platform=linux/amd64 python:3.10
-#--platform=linux/amd64  ubuntu/python:3.10-22.04_stable
-#--platform=linux/amd64  projectsveltos/k8s-cleaner:main
-#--platform=linux/amd64 logstash:8.18.3
-#--platform=linux/amd64 golang:1.12.6
-#--platform=linux/amd64 alpine:3.7
-#--platform=linux/amd64 python:3.9-slim
-#--platform=linux/amd64 node:16-alpine
-#--platform=linux/amd64 nginx:alpine
-#--platform=linux/amd64 postgres:14-alpine
-#--platform=linux/amd64 redis:7-alpine
-#--platform=linux/amd64 hanchuanchuan/goinception:v1.3.0
 #--platform=linux/amd64 1766856800xx/go-inception:latest
 #--platform=linux/amd64 polardbx/polardbx-exporter:v1.6.2
 #--platform=linux/amd64 langgenius/dify-api:1.7.1	
@@ -52,8 +34,7 @@
 #nginx/nginx-ingress:5.3
 #node:20-slim
 #python:3.11-slim
-mcpk8s/server:latest
-
+mcpk8s/server:v0.6.1
 
 
 
