@@ -40,7 +40,7 @@
 #--platform=linux/arm64  otel/opentelemetry-collector:0.90.1
 #--platform=linux/arm64  hashicorp/http-echo
 #--platform=linux/arm64 otel/opentelemetry-collector-contrib:0.93.0
---platform=linux/arm64  mysql:8.0
+--platform=linux/amd64  mysql:8.0
 
 
 
