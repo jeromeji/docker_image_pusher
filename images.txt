@@ -41,9 +41,10 @@
 #--platform=linux/arm64  hashicorp/http-echo
 #--platform=linux/arm64 otel/opentelemetry-collector-contrib:0.93.0
 #--platform=linux/amd64  mysql:8.0
---platform=linux/arm64 otel/opentelemetry-collector-contrib:0.55.0
---platform=linux/arm64 otel/opentelemetry-javaagent:1.15.0
+#--platform=linux/arm64 otel/opentelemetry-collector-contrib:0.55.0
+#--platform=linux/arm64 otel/opentelemetry-javaagent:1.15.0
 --platform=linux/amd64  node:20-alpine
+--platform=linux/amd64  python:3.11-slim
 
 
 
