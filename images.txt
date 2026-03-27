@@ -45,7 +45,9 @@
 #--platform=linux/arm64 otel/opentelemetry-javaagent:1.15.0
 #--platform=linux/amd64  node:20-alpine
 #--platform=linux/amd64  python:3.11-slim
---platform=linux/amd64  nginx:alpine
+#--platform=linux/amd64  nginx:alpine
+--platform=linux/arm64 maven:3.9-eclipse-temurin-17
+--platform=linux/arm64 eclipse-temurin:17-jre-alpine
 
 
 
